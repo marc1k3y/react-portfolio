@@ -1,0 +1,14 @@
+.mainWrapper {
+  display: flex;
+  gap: 20px;
+  background-color: rgb(54,57,62);
+  padding: 30px;
+  border-radius: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .mainWrapper {
+    flex-direction: column;
+  }
+}

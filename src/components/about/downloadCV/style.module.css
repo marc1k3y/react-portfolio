@@ -1,0 +1,19 @@
+.downloadCVWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downloadCVWrapper a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(114,137,218);
+  border-radius: 35px;
+  color: rgb(40,43,48);
+  font-weight: bold;
+}
+
+.downloadCVWrapper a:active {
+  color: rgb(114,137,218);
+  background-color: white;
+}

@@ -1,7 +1,6 @@
 .headerWrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 0 10px;
   position: fixed;
   top: 0;
@@ -11,5 +10,4 @@
   font-size: 30px;
   background-color:rgb(40,43,48);
   color: rgb(114,137,218);
-  font-weight: bold;
 }

@@ -1,0 +1,11 @@
+.socialLinksWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socialLinksWrapper img {
+  width: 30px;
+  stroke: rgb(114,137,218);
+}
