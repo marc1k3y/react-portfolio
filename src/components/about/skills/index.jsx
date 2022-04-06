@@ -94,6 +94,38 @@ export const Skills = () => {
         </div>
         <div className={cn.linearSkill}>
           <div className={cn.skillName}>
+            Node JS
+          </div>
+          <div className={cn.lineWrapper}>
+            <div className={cn.line} style={{ width: "65%"}}></div>
+          </div>
+        </div>
+        <div className={cn.linearSkill}>
+          <div className={cn.skillName}>
+            Express JS
+          </div>
+          <div className={cn.lineWrapper}>
+            <div className={cn.line} style={{ width: "70%"}}></div>
+          </div>
+        </div>
+        <div className={cn.linearSkill}>
+          <div className={cn.skillName}>
+            MongoDB
+          </div>
+          <div className={cn.lineWrapper}>
+            <div className={cn.line} style={{ width: "70%"}}></div>
+          </div>
+        </div>
+        <div className={cn.linearSkill}>
+          <div className={cn.skillName}>
+            Mongoose
+          </div>
+          <div className={cn.lineWrapper}>
+            <div className={cn.line} style={{ width: "80%%"}}></div>
+          </div>
+        </div>
+        <div className={cn.linearSkill}>
+          <div className={cn.skillName}>
             Next JS
           </div>
           <div className={cn.lineWrapper}>
