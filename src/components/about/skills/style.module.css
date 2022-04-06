@@ -1,0 +1,52 @@
+.skillsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.general>div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.general img {
+  width: 20px;
+}
+
+.linearSkills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.linearSkills>.title {
+  text-align: center;
+  color: white;
+}
+
+.linearSkill {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.lineWrapper {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(40,43,48);
+  border-radius: 10px;
+}
+
+.line {
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}

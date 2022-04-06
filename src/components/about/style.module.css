@@ -8,7 +8,7 @@
 .aboutWindow {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   border-radius: 10px;
   background-color: rgb(40,43,48);
   box-shadow: 0 0 10px rgb(40,43,48);
@@ -20,13 +20,14 @@
   display: flex;
   justify-content: space-between;
   padding: 0 10px;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
 }
 
 .switcher>div {
-  padding: 5px 20px;
-  margin-bottom: -10px;
+  padding: 5px 15px;
+  padding-bottom: 10px;
+  margin-bottom: -20px;
   cursor: pointer;
 }
 
@@ -37,13 +38,14 @@
 
 .aboutWindow>.text {
   background-color: rgb(114,137,218);
-  padding: 5px;
-  border-radius: 10px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .text>div {
   padding: 5px;
-  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
