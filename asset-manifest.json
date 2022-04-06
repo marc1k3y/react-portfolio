@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.0a5cd793.css",
+    "main.js": "/react-portfolio/static/js/main.142251f2.js",
+    "static/media/iam.jpg": "/react-portfolio/static/media/iam.11d160f4d871d23bec1d.jpg",
+    "static/media/react.svg": "/react-portfolio/static/media/react.fdd3331d261ad6d5e1c92448737aa2aa.svg",
+    "static/media/coding.svg": "/react-portfolio/static/media/coding.3f41ba953f2b478ac6208b97d6f7d8bd.svg",
+    "static/media/architect.svg": "/react-portfolio/static/media/architect.9badb6f0f45df1c07213c6dceaa59d7b.svg",
+    "static/media/telegram.svg": "/react-portfolio/static/media/telegram.c7eb8c66f348c0bcf1dc5784274f7f40.svg",
+    "static/media/github.svg": "/react-portfolio/static/media/github.ecb007159d60ce02e28c9502a6fea10e.svg",
+    "static/media/business.svg": "/react-portfolio/static/media/business.5a8429e0738526d9958ae19953cfeb16.svg",
+    "static/media/layout.svg": "/react-portfolio/static/media/layout.496c126cf28f5e36afd2fdec7d7f78e4.svg",
+    "static/media/language.svg": "/react-portfolio/static/media/language.b5078497f9a7c5191b4cf10ad2c15752.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.0a5cd793.css.map": "/react-portfolio/static/css/main.0a5cd793.css.map",
+    "main.142251f2.js.map": "/react-portfolio/static/js/main.142251f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a5cd793.css",
+    "static/js/main.142251f2.js"
+  ]
+}
