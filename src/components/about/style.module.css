@@ -1,0 +1,43 @@
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(54,57,62);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.personInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.avatar img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(114,137,218);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profession {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .personInfo {
+    flex-direction: column;
+  }
+}

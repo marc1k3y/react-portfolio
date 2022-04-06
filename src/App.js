@@ -1,13 +1,14 @@
 import "./App.css"
-import { Greeting } from "./components/greeting"
-import { Robot } from "./components/robot"
+import { About } from "./components/about"
+import { Header } from "./components/header"
 
 function App() {
   return (
     <div className="App">
-      <Robot>
-        <Greeting />
-      </Robot>
+      <Header />
+      <div className="app-content">
+        <About />
+      </div>
     </div>
   )
 }

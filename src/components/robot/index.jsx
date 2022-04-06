@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react"
 import cn from "./style.module.css"
+import { useEffect, useState } from "react"
+import { Greeting } from "./greeting"
 
 export const Robot = ({ children }) => {
   const [teeth, setTopTeeth] = useState(null)
@@ -10,6 +11,7 @@ export const Robot = ({ children }) => {
     setInterval(() => {
       setTopTeeth(Array.from({ length: 4 }).map(() =>
         <div
+          key={getRandom()}
           className={cn.tooth}
           style={{
             backgroundColor: getRandom() > 50
@@ -37,7 +39,7 @@ export const Robot = ({ children }) => {
         </div>
       </div>
       <div className={cn.text}>
-        {children}
+        <Greeting />
       </div>
     </div>
   )

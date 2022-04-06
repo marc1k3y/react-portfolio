@@ -1,7 +1,7 @@
 import cn from "./style.module.css"
 import { useState } from "react"
-import { MyInput } from "../UI/input"
-import { MyButton } from "../UI/button"
+import { MyInput } from "../../UI/input"
+import { MyButton } from "../../UI/button"
 
 export const Greeting = () => {
   const [name, setName] = useState("")
