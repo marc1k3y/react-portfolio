@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <div className={cn.headerWrapper}>
       <div className={cn.logo}>
-        DEV PORTFOLIO
+        dev portfolio
       </div>
     </div>
   )

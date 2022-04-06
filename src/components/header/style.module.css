@@ -12,3 +12,10 @@
   color: rgb(114,137,218);
   z-index: 200;
 }
+
+.logo {
+  background-color: rgb(66,69,73);
+  box-shadow: 0 0 5px rgb(54,57,62);
+  padding: 5px;
+  border-radius: 10px;
+}

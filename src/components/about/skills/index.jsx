@@ -1,5 +1,6 @@
 import cn from "./style.module.css"
 import business from "../../../assets/business.svg"
+import developer from "../../../assets/developer.svg"
 import layout from "../../../assets/layout.svg"
 import coding from "../../../assets/coding.svg"
 import architect from "../../../assets/architect.svg"
@@ -13,6 +14,12 @@ export const Skills = () => {
           <img src={business} alt="business" />
           <div className={cn.desc}>
             Понимание приоритета бизнеса в разработке;
+          </div>
+        </div>
+        <div className={cn.layout}>
+          <img src={developer} alt="developer" />
+          <div className={cn.desc}>
+            В состоянии самостоятельно решать поставленные задачи;
           </div>
         </div>
         <div className={cn.layout}>
@@ -43,6 +50,14 @@ export const Skills = () => {
       <div className={cn.linearSkills}>
         <div className={cn.title}>
           Основные инструменты разработки
+        </div>
+        <div className={cn.linearSkill}>
+          <div className={cn.skillName}>
+            google.com
+          </div>
+          <div className={cn.lineWrapper}>
+            <div className={cn.line} style={{ width: "100%"}}></div>
+          </div>
         </div>
         <div className={cn.linearSkill}>
           <div className={cn.skillName}>
