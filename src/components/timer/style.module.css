@@ -1,0 +1,13 @@
+.timePassedWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgb(40,43,48);
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: white;
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  text-align: center;
+}

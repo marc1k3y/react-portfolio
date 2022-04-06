@@ -1,6 +1,7 @@
 import cn from "./style.module.css"
 import avatar from "../../assets/iam.jpg"
 import reactLogo from "../../assets/react.svg"
+import { TimePassed } from "../timer"
 
 export const Avatar = () => {
   return (
@@ -19,6 +20,7 @@ export const Avatar = () => {
           </div>
         </div>
       </div>
+      <TimePassed />
     </div>
   )
 }

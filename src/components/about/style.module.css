@@ -1,16 +1,25 @@
 .aboutWrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.aboutWindow {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
-  background-color: rgb(40,43,48);
-  padding: 10px;
   border-radius: 10px;
+  background-color: rgb(40,43,48);
+  box-shadow: 0 0 10px rgb(40,43,48);
+  padding: 10px;
+  max-width: 50vw;
 }
 
 .switcher {
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 10px;
   font-size: 12px;
   color: white;
 }
@@ -18,6 +27,7 @@
 .switcher>div {
   padding: 5px 20px;
   margin-bottom: -10px;
+  cursor: pointer;
 }
 
 .switcher>div {
@@ -25,7 +35,7 @@
   border-top-right-radius: 10px;
 }
 
-.aboutWrapper>.text {
+.aboutWindow>.text {
   background-color: rgb(114,137,218);
   padding: 5px;
   border-radius: 10px;
@@ -33,4 +43,14 @@
 
 .text>div {
   padding: 5px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutWindow {
+    max-width: 90vw;
+  }
+  .switcher>div {
+    cursor: none;
+  }
 }

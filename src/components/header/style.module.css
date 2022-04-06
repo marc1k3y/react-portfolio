@@ -10,4 +10,5 @@
   font-size: 30px;
   background-color:rgb(40,43,48);
   color: rgb(114,137,218);
+  z-index: 200;
 }

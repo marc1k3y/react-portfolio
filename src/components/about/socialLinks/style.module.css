@@ -3,9 +3,37 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(40,43,48);
+  box-shadow: 0 0 10px rgb(40,43,48);
+  /* animation: flash 4s infinite linear; */
 }
+
+/* @keyframes flash {
+  0% {
+    box-shadow: 5px 0 10px rgb(114,137,218);
+  }
+  25% {
+    box-shadow: 0 5px 10px rgb(114,137,218);
+  }
+  50% {
+    box-shadow: -5px 0 10px rgb(114,137,218);
+  }
+  75% {
+    box-shadow: 0 -5px 10px rgb(114,137,218);
+  }
+  100% {
+    box-shadow: 5px 0 10px rgb(114,137,218);
+  }
+} */
 
 .socialLinksWrapper img {
   width: 30px;
-  stroke: rgb(114,137,218);
+}
+
+@media screen and (max-width: 768px) {
+  .socialLinksWrapper {
+    margin-top: 20px;
+  }
 }

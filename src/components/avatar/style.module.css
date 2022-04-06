@@ -1,11 +1,16 @@
 .avatarWrapper {
   position: relative;
   z-index: 100;
+  height: 230px;
+  width: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .avatarWrapper img {
   width: 300px;
-  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .devInfo {
